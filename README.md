@@ -8,6 +8,13 @@ Join us, contribute, and help shape the future of AI and robotics. For questions
 ## 🌐Overview
 USD2MJCF is a powerful tool that converts Universal Scene Description (USD) assets into MuJoCo's MJCF format, enabling seamless transitions from collaborative 3D workflows to high-fidelity physics simulation.
 
+## 🚀Features
+ - Accurate material conversion from USD to MJCF format
+ - Mesh segmentation by material ID for better asset organization
+ - Correct joint conversion, preserving articulation structure
+ - Automated collision shape generation and splitting
+ - Precise 3D positioning to maintain spatial consistency
+
 ## 🛠️ Setup
 ### Prerequisites
 - Python 3.10
@@ -115,3 +122,10 @@ Current version: 1.0.0
 
 ## 🤝Support
 For issues and questions, please contact the development team or create an issue in the repository.
+
+## Acknowledgements
+
+This project is based on the original work from NVIDIA's internal repository:
+[`usd_to_urdf`](https://gitlab-master.nvidia.com/srl/py/usd_to_urdf/)
+
+This repository modifies and extends the concepts originally developed by the NVIDIA SRL team.
