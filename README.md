@@ -19,7 +19,7 @@ USD2MJCF is a powerful tool that converts Universal Scene Description (USD) asse
 ### Prerequisites
 - Python 3.10
 - pip package manager
-- Conda
+- [Miniconda](https://docs.conda.io/en/latest/miniconda.html) or [Anaconda](https://www.anaconda.com/)
 
 ### Installation
 1. **Clone this repository**:  
@@ -125,6 +125,6 @@ Current version: 1.0.0
 For issues and questions, please contact the development team or create an issue in the repository.
 
 ## Acknowledgements
-This project is based on NVIDIA's pip package usd_to_urdf
+This project is based on NVIDIA's pip package nvidia-srl-usd-to-urdf
 
 
