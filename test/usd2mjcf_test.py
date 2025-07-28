@@ -1,5 +1,5 @@
 import argparse
-from nvidia.srl.from_usd.to_mjcf import UsdToMjcf
+from lightwheel.srl.from_usd.to_mjcf import UsdToMjcf
 import os
 
 def main():
