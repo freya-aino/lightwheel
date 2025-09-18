@@ -1,0 +1,4 @@
+.venv
+dist
+build
+lightwheel.egg-info
