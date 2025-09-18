@@ -6,7 +6,7 @@ readme = "README.md"
 requires-python = "~=3.10.0"
 dependencies = [
     "coacd>=1.0.7",
-    "numpy>=2.2.6",
+    "numpy~=1.26.0",
     "scipy>=1.15.3",
     "trimesh>=4.8.2",
     "usd-core>=25.5",
