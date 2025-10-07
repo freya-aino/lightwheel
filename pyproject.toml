@@ -1,6 +1,6 @@
 [project]
 name = "lightwheel"
-version = "1.0.0"
+version = "1.0.2"
 description = "Add your description here"
 readme = "README.md"
 requires-python = "~=3.10.0"
@@ -9,5 +9,5 @@ dependencies = [
     "numpy~=1.26.0",
     "scipy>=1.15.3",
     "trimesh>=4.8.2",
-    "usd-core>=25.5",
+    "usd-core~=23.11",
 ]
